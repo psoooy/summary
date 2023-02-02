@@ -4,16 +4,23 @@
 }
 .box1:nth-child(2n){
     background: coral;
+    height: 150px;
 }
 .box2{
     background: salmon;
+    height: 150px;
+
 }
 .box2:nth-child(2n){
     background: peru;
 }
 .box3{
     background: aqua;
+    height: 150px;
+
 }
 .box3:nth-child(2n){
     background: steelblue;
+    height: 150px;
+
 }
