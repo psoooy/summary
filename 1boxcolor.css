@@ -1,0 +1,19 @@
+.box1{
+    background: #fee134;
+    height: 150px;
+}
+.box1:nth-child(2n){
+    background: coral;
+}
+.box2{
+    background: salmon;
+}
+.box2:nth-child(2n){
+    background: peru;
+}
+.box3{
+    background: aqua;
+}
+.box3:nth-child(2n){
+    background: steelblue;
+}
