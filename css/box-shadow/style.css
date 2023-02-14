@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    text-align: center;
+    margin-top: 40%;
+}
+header p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.ex01 {
+    background: #c5e1a5;
+    display: inline-block;
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-family: "Dosis", sans-serif;
+    color: white;
+    padding: 20px;
+    transition: box-shadow 3s ease;
+    cursor: default;
+}
+.ex01:hover {
+    box-shadow: inset 900px 0 0 0 #9ccc65;
+    /*box-shadow 에 px 위치 음수 넣으면 오른쪽부터 시작 */
+}
+
+.ex02 {
+    background: #fff59d;
+    display: inline-block;
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-family: "Dosis", sans-serif;
+    color: white;
+    padding: 20px;
+    transition: box-shadow 3s ease;
+    cursor: default;
+}
+.ex02:hover {
+    box-shadow: inset -900px 0 0 0 #ffeb3b;
+    /*box-shadow 에 px 위치 음수 넣으면 오른쪽부터 시작 */
+    color: rgb(214, 214, 214);
+}
+
+.ex03 {
+    background: #ffe0b2;
+    display: inline-block;
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-family: "Dosis", sans-serif;
+    color: white;
+    padding: 20px;
+    transition: box-shadow 1.2s ease-in-out;
+    cursor: default;
+}
+.ex03:hover {
+    box-shadow: inset -450px 0 0 0 #ffcc80, inset 450px 0 0 0 #ffcc80;
+    /*box-shadow 에 px 위치 음수 넣으면 오른쪽부터 시작 */
+}
