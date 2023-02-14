@@ -40,6 +40,6 @@ a {
     height: 260px;
 }
 
-.menu02:hover a {
-    color: black;
+.menu02:hover > a {
+    color: #311b92;
 }
