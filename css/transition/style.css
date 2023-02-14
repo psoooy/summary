@@ -81,9 +81,11 @@
 }
 .ex--03--menu li {
     list-style: none;
-    /* display: none;  */
 }
 .ex--03--menu li {
     display: none;
 }
-.ex--02--menu;
+.menu02:hover .ex--03--menu li {
+    display: block;
+    background: #fee134;
+}

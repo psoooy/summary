@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+.ex--02--menu {
+    background: #311b92;
+    width: 70%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    line-height: 60px;
+    margin: auto;
+}
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.menu02 {
+    position: relative;
+    margin: 0 10px;
+}
+.menu02 a {
+    padding: 0 20px;
+    color: white;
+}
+.menu02 ul {
+    display: none;
+}
+.menu02:hover ul {
+    display: block;
+}
+.menu02:hover {
+    background: coral;
+    border-radius: 35px;
+    transition: background 0.7s ease-in-out;
+    height: 260px;
+}
+
+.menu02:hover a {
+    color: black;
+}
