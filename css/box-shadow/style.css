@@ -58,5 +58,7 @@ header p {
 }
 .ex03:hover {
     box-shadow: inset -450px 0 0 0 #ffcc80, inset 450px 0 0 0 #ffcc80;
-    /*box-shadow 에 px 위치 음수 넣으면 오른쪽부터 시작 */
+    /*box-shadow 에 px 위치 음수 넣으면 오른쪽부터 시작
+    inset -> box-shadow 를 박스 안에서 적용시키겠다 라는 의미
+    inset 의 위치는 앞에서 사용해도 좋고 뒤에서 사용해도 좋음 */
 }
