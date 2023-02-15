@@ -14,6 +14,7 @@
     margin: 100px 7px;
 }
 .icons li a {
+    position: relative;
     text-decoration: none;
     background-color: #b2dfdb;
     border-radius: 50%;
@@ -29,8 +30,34 @@
     text-align: center;
 }
 .icons li a span {
-    opacity: 0;
+    /* opacity: 0; */
     /*display:none 과 opacity: 0 둘다 눈으로 보기에 보이지 않도록 없애는 것 이지만 
     display: none 의 경우 영역까지 지워버리고,
     opacity:0 의 경우 영역은 존재하나 투명도를 조절하여 보이지 않게만 하는것*/
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    transform: translateX(-50%);
+    font-size: 12px;
+    line-height: 1.6;
+    background: #fee134;
+    padding: 5px 9px;
+    border-radius: 6px 0;
+    /*border-radius에 앞의 숫자는 오른대각의 값
+    뒤의 숫자는 왼대각의 값을 의미함*/
+}
+
+/**left:25% 만 줘도 원하는 값이 나오는데 
+굳이 left : 50% 에 transform:translateX(-50%)로 하는 이유
+뭐가 다른 것인지 !! **/
+
+.icons li a span::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    bottom: -5px;
+    border-top: 5px solid #fee134;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
 }
