@@ -45,7 +45,7 @@
     border-radius: 6px 0;
     /*border-radius에 앞의 숫자는 오른대각의 값
     뒤의 숫자는 왼대각의 값을 의미함*/
-    display: none;
+    opacity: 0;
 }
 
 /**left:25% 만 줘도 원하는 값이 나오는데 
@@ -64,5 +64,9 @@
 }
 
 .icons li a:hover span {
-    display: block;
+    opacity: 100%;
+    /*transition 은 없는 아이에게 주지 못하기 때문에 display none 으로 없애주는 것이 아니라 
+    opacity 0 으로 보이지 않게만 만든 후 먹여주면 적용이 된다!!! */
+    transition: opacity 0.9s ease;
+    color: white;
 }
