@@ -40,24 +40,29 @@
     transform: translateX(-50%);
     font-size: 12px;
     line-height: 1.6;
-    background: #fee134;
+    background: #b2dfdb;
     padding: 5px 9px;
     border-radius: 6px 0;
     /*border-radius에 앞의 숫자는 오른대각의 값
     뒤의 숫자는 왼대각의 값을 의미함*/
+    display: none;
 }
 
 /**left:25% 만 줘도 원하는 값이 나오는데 
 굳이 left : 50% 에 transform:translateX(-50%)로 하는 이유
 뭐가 다른 것인지 !! **/
 
-.icons li a span::before{
-    content: '';
+.icons li a span::before {
+    content: "";
     position: absolute;
     left: 50%;
     margin-left: -5px;
     bottom: -5px;
-    border-top: 5px solid #fee134;
+    border-top: 5px solid #b2dfdb;
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
+}
+
+.icons li a:hover span {
+    display: block;
 }
