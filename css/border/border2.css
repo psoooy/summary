@@ -1,10 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 50px auto;
 }
 /*기본적인 border 만들기*/
-.wrap{
+.wrap {
     width: 0;
     height: 0;
-    border: 20px solid #ff8a65;
+    border-top: 100px solid #ffccbc;
+    border-right: 100px solid #ffab91;
+    border-bottom: 100px solid #ff8a65;
+    border-left: 100px solid #ff7043;
 }
