@@ -13,37 +13,33 @@
 }
 .box3{
     background: #90caf9 ;
-    border: solid #0097a7;
+    border: solid #795548;
 }
 .box4{
     background: #90caf9 ;
-    border: double #0097a7;
-}
-.box4{
-    background: #90caf9 ;
-    border: 4mm ridge #0097a7;
+    border: double #795548;
 }
 .box5{
     background: #90caf9 ;
-    border: solid #0097a7;
+    border: dotted #795548;
 }
 .box6{
     background: #90caf9 ;
-    border: solid #0097a7;
+    border: dashed #795548;
 }
 .box7{
     background: #90caf9 ;
-    border: solid #0097a7;
+    border: groove #795548;
 }
 .box8{
     background: #90caf9 ;
-    border: solid #0097a7;
+    border: ridge #795548;
 }
 .box9{
     background: #90caf9 ;
-    border: solid #0097a7;
+    border: inset #795548;
 }
 .box10{
     background: #90caf9 ;
-    border: solid #0097a7;
+    border: outset #795548;
 }
