@@ -3,11 +3,26 @@
     margin: 50px auto;
 }
 /*기본적인 border 만들기*/
-.wrap {
+.border--1 {
     width: 0;
     height: 0;
     border-top: 100px solid #ffccbc;
     border-right: 100px solid #ffab91;
     border-bottom: 100px solid #ff8a65;
     border-left: 100px solid #ff7043;
+}
+.border--2 {
+    width: 100px;
+    height: 100px;
+    border-top: 100px solid #ffccbc;
+    border-right: 100px solid #ffab91;
+    border-bottom: 100px solid #ff8a65;
+    border-left: 100px solid #ff7043;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #8bc34a;
 }
