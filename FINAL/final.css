@@ -2,28 +2,47 @@
     padding: 0;
     margin: 0;
 }
+.layout--width {
+    width: 70%;
+    margin: auto;
+}
 .header--wrap {
     background: #ffccbc;
-    width: 80%;
-    max-width: 1200px;
+    width: 100%;
     margin: auto;
     display: block;
     justify-content: space-between;
 }
+.menu--wrap {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu--wrap span i {
+    color: white;
+    margin: 0 15px;
+}
+.menu--wrap span a {
+    text-decoration: none;
+    color: white;
+}
 .menu--wrap ul {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    margin: 0;
 }
 .menu--wrap ul li {
     list-style: none;
-    margin: 5px 0;
-    padding: 10px 10px;
+    margin: 10px 10px;
+    padding: 10px 20px;
 }
 .menu--wrap ul li a {
     text-decoration: none;
     color: white;
 }
-.menu--wrap ul li:hover {
-    background: #ffab91;
-    border-radius: 30%;
+
+.main--wrap {
+    height: 550px;
+    background: yellow;
 }
